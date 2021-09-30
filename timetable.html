@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timetable</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Changa|Electrolize|Kristi|Lexend+Tera&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/timetable.css">
+</head>
+<body>
+    <div class="logo">
+        <h4><a href="index.html">TIMETABLE</a></h4>
+    </div>
+    <div class="nav-container">
+        <nav class="navbar">
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-items"><a href="index.html" class = "nav-links" id="home">Home</a></li>
+                <li class="nav-items"><a href="timetable.html" class = "nav-links active">TimeTable</a></li>
+                <li class="nav-items"><a href="deadlines.html" class = "nav-links">Deadlines</a></li>
+                <li class="nav-items"><a href="events.html" class = "nav-links">Events</a></li>
+                <li class="nav-items"><a href="attendance.html" class = "nav-links">Attendance</a></li>            
+                <li class="nav-items"><a href="syllabus.html" class = "nav-links">Syllabus</a></li>
+                <li class="nav-items"><a href="notes.html" class = "nav-links">Notes</a></li>
+                <li class="nav-items"><a href="books.html" class = "nav-links">Books</a></li>
+                <li class="nav-items"><a href="calendar.html" class = "nav-links">Calendar</a></li>
+                <li class="nav-items"><a href="discuss.html" class = "nav-links">Discuss</a></li>            
+                <li class="nav-items"><a href="aboutus.html" class = "nav-links">About Us</a></li>            
+    
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <h2>Section-A</h2>
+        <img src="images/edit.svg" alt="Edit" title="Edit" class="edit-button">
+        <img src="images/save.svg" alt="Save" title="Save" height = "21.8em" class="save-button">
+        <!-- <input type="button" value="Edit" class="edit-button">
+        <input type="button" value="Save" class="save-button"> -->
+        <table class="timetable">
+            <tr>
+                <th rowspan="2">DAY</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>RECESS</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+            </tr>
+            <tr>
+                <td class="times">10:00 - 10:50</td>
+                <td class="times">10:50 - 11:40</td>
+                <td class="times">11:40 - 12:30</td>
+                <td class="times">12:30 - 01:20</td>
+                <td class="times">01:20 - 02:10</td>
+                <td class="times">02:10 - 03:00</td>
+                <td class="times">03:00 - 03:45</td>
+                <td class="times">03:45 - 04:30</td>
+            </tr>
+            <tr>
+                <th>Mon</th>
+                <td>PSLB</td>
+                <td colspan="3">BE Lab (EXS 06 )</td>
+                <td rowspan="5" id="break">BREAK</td>
+                <td>CCWT</td>
+                <td>M-III</td>
+                <td>BE</td>
+            </tr>
+            <tr>
+                <th>Tue</th>
+                <td>DELD</td>
+                <td>CS</td>
+                <td>CCWT</td>
+                <td>M-III</td>
+                <td colspan="3">C Programming Lab (Lab 2)</td>
+            </tr>
+            <tr>
+                <th>Wed</th>
+                <td>M-III</td>
+                <td colspan="3">DELD Lab (H/W Lab/EXS 17)</td>
+                <td>BE</td>
+                <td>PSLB</td>
+                <td>CS</td>
+            </tr>
+            <tr>
+                <th>Thu</th>
+                <td>PSLB</td>
+                <td>M-III</td>
+                <td>CCWT</td>
+                <td>DELD</td>
+                <td colspan="3">Web Technology Lab (Lab 1)</td>
+            </tr>
+            <tr>
+                <th>Fri</th>
+                <td>CCWT</td>
+                <td>PSLB</td>
+                <td>VE</td>
+                <td>BE</td>
+                <td>CS</td>
+                <td>DELD</td>
+                <td>VE</td>
+            </tr>
+            <tr>
+                <th>Sat</th>
+                <td>M-III</td>
+                <td>BE</td>
+                <td>DELD</td>
+                <td>CS</td>
+            </tr>
+        </table>
+    </main>
+    <footer></footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

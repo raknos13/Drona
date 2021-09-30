@@ -1,0 +1,119 @@
+body,
+html {
+  height: 100%;
+}
+
+
+body.slider__body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.slide-1 {
+    background: url('../images/wp3.png') fixed;  
+}
+
+.slide-2 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/blue-splash.jpg');
+}
+.slide-3 {
+    background: url('../images/wp2.jpg');
+}
+.slide-4 {
+    background: linear-gradient(#f0bed4, #a163f5);
+}
+.slide-5 {
+    background: linear-gradient(#65cce1, #6365ec);
+}
+
+.slide-6 {
+    background: linear-gradient(#65cce1, #6365ec);
+}
+.slide-7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/wp4.jpg);
+}
+.slide-8 {
+  background: linear-gradient(#65cce1, #6365ec);
+}
+
+#text-1-1 {
+  font-family: 'Electrolize', sans-serif;
+  font-weight: 560;  
+}
+#text-1-2 {
+    font-size: 20px;
+    top: 59%;
+}
+#text-1-3 {
+    font-size: 35px;
+    top: 65%;
+    font-family: 'Sacramento', cursive;
+    letter-spacing: 1px;
+    text-transform: inherit;
+}
+#text-2-1 {
+    color: rgb(34, 34, 34);
+}
+
+section > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7vw;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgb(218, 218, 218);
+    cursor: pointer;
+}
+
+.slides a {
+    text-decoration: none;
+    color: black;
+}
+
+.slider__container {
+  position: fixed;
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform 500ms ease-in-out;
+  transition: -webkit-transform 500ms ease-in-out;
+  -o-transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+}
+
+.slider__page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slider__indicators {
+  position: fixed;
+  left: 18px;
+  top: 50%;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.slider__indicator {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 10px 0;
+  border-radius: 100px;
+  background-color: #fff;
+  cursor: default;
+}
+.slider__indicator--active {
+  opacity: 0.3;
+}

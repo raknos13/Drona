@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(#d2fcad, #22eaeb);
+}
+
+main {
+    margin:  20vh auto;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin: 0 auto;
+    position: fixed;
+    top: 3em;
+    left: 0;
+    right: 0;
+}
+
+.edit-button, .save-button {
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+    top: 10.4em;
+    left: 61%;
+}
+
+.save-button {
+    top: 10.5em;
+    left: 63%;
+}
+
+table {
+    position: relative;
+    margin: 10vh auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: rgb(255, 199, 96);
+    font-size: 1.3em;
+}
+td {
+    background: rgb(231, 231, 231);
+    font-size: 1.1em;
+}
+.times {
+    background: rgb(253, 224, 171);
+    font-size: 0.9em;
+    color: rgb(71, 71, 71);
+}
+#break {
+    background: rgb(253, 224, 171); /*rgb(255, 225, 230)*/
+    color: rgb(71, 71, 71);
+    text-align: center;
+}
+
+.editing {
+    background: white;
+    color: rgb(73, 73, 73);
+}
